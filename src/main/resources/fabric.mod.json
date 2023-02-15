@@ -1,29 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "unethicalmod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Unethical Foods",
+  "description": "Very unethical mod",
   "authors": [
-    "Me!"
+    "Codion"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "https://codion.ca/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/unethicalmod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "ca.codion.unethicalmod.UnethicalMod"
+    ],
+    "client": [
+      "ca.codion.unethicalmod.UnethicalModClient"
+    ],
+    "fabric-datagen": [
+      "ca.codion.unethicalmod.UnethicalModDataGenerator"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "unethicalmod.mixins.json"
   ],
 
   "depends": {
