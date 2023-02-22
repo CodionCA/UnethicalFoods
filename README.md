@@ -1,5 +1,5 @@
 # UnethicalFoods-Fabric-1.19.3
-Current items
+Current items:
 
 Cobalt & Cobalt Ore
 
