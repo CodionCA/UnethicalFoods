@@ -1,2 +1,5 @@
 # UnethicalFoods-Fabric-1.19.3
-Currently nothing just the template :)
+Current items:
+
+Cobalt & Cobalt Ore
+Cooked Turtle Egg
